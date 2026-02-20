@@ -23,12 +23,29 @@ h1{
 #dados{
     padding: 20px;
 }
-#resultadoMedia{
-    text-align: center;
-}
+#resultado{
+    text-align: left;
+    padding: 22px;
+} 
 button{
     padding: 5px;
     border: 2px solid blue;
     border-radius: 6px;
     cursor: pointer;
 }
+td{
+    text-align: center;
+}
+table{
+    width: 12%;
+    border-collapse: collapse;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+}
+th {
+    background-color: grey;
+    color: black;
+  }
