@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+	padding: 0;
+	border: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 25px;
+}
+body{
+    min-height: 100vh;
+    background-image: linear-gradient(blue, white);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+.inserir{
+    padding: 2px;
+    border: 3px solid black;
+    border-radius: 3px;
+}
+#dados{
+    padding: 20px;
+}
+#resultadoMedia{
+    text-align: center;
+}
+button{
+    padding: 5px;
+    border: 2px solid blue;
+    border-radius: 6px;
+    cursor: pointer;
+}

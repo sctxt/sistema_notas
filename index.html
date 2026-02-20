@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistemas de Notas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- O usuário pode:
+
+Adicionar nome do aluno
+
+Adicionar 2 notas
+
+Calcular média automaticamente
+
+Mostrar status: Aprovado / Recuperação / Reprovado
+
+Extras:
+
+Ordenar por média
+
+Destacar aprovados em verde -->
+    <h1> Sistema de Notas</h1>
+    <div id="dados">
+        <label>Adicione o nome do aluno:</label>
+        <input type="text" id="nomeAluno" class="inserir" placeholder="aluno..."><br>
+        <label>Adicione a primeira nota</label>
+        <input type="text" id="n1" class="inserir" placeholder="nota 1..."><br>
+        <label>Adicione a segunda nota:</label>
+        <input type="text" id="n2" class="inserir" placeholder="nota 2..."><br><br>
+        <button id="CalcBtn">Calcular</button>
+    </div>
+    <p id="resultadoMedia"></p>
+    <p id="statusFinal"></p>
+
+
+    <script src="index.js"></script>
+</body>
+</html>
